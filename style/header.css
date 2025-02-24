@@ -1,0 +1,42 @@
+.container__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 2em 40px 2em;
+}
+
+.logo__header{
+    padding: 12px 0;
+}
+
+.pesquisa__header{
+    width: 50vw;
+    border: 0;
+    border-radius: 1em;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-da-fonte);
+    padding-left: 2em;
+    font-size: 1em;
+}
+
+.pesquisa__header::placeholder{
+    color: var(--cor-da-fonte);
+    font-family: var(--font-principal);
+    font-size: 1em;
+    padding-left: 0.9em;
+}
+
+.container__usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto__usuario{
+    height: 32px;
+    width: 32px;
+    padding: 12px;
+}
+
+.nome_usuario{
+    padding: 0 0.8em 0 0;
+}

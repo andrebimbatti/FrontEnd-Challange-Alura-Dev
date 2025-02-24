@@ -1,0 +1,18 @@
+:root{
+    --cor-de-fundo: #051d3b;
+    --cor-secundaria: rgba(45, 65, 91, 1);
+    --cor-azul: #6BD1FF;
+    --cor-botao-ativo: #5081FB;
+    --cor-botao: rgba(80, 129, 251, 0.16);
+    --cor-da-fonte: #ffffff;
+    --fonte-principal: 'Inter';
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-da-fonte);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

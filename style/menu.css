@@ -1,0 +1,35 @@
+.menu{
+  /* sdfas    */
+}
+
+.titulo__menu{
+    margin-left: 2em;
+    font-size: 0.8em;
+}
+
+.lista__menu{
+    list-style: none;
+    padding-left: 0;
+}
+
+.item__menu{
+    display: flex;
+    margin: 1em 0 1em 2em;
+}
+
+.icone__menu{
+    padding: 1em;
+    background-color: var(--cor-botao);
+    border: 0;
+    border-radius: 1em;
+    margin-right: 1em;
+}
+
+.icone__ativo{
+    background-color: var(--cor-botao-ativo);
+}
+
+.link__menu{
+    text-decoration: none;
+    color: var(--cor-da-fonte);
+}

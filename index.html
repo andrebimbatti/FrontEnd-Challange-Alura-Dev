@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Dev</title>
+    <!-- Fontes do Projeto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/menu.css">
+    <link rel="stylesheet" href="./style/editor.css">
+
 </head>
 <body>
-    
+    <header class="container__header">
+        <img src="./img/logo.svg" alt="Logo AluraDev" class="logo__header">
+        <input type="search" name="pesquisa" id="pesquisar" class="pesquisa__header" placeholder="Busque por algo">
+        <div class="container__usuario">
+            <img src="./img/Photo.png" alt="Foto Perfil" class="foto__usuario">
+            <p class="nome_usuario">Harry</p>
+        </div>
+    </header>
+    <main>
+        <h3 class="titulo__menu">MENU</h3>
+        
+        <section class="menu">
+            <ul class="lista__menu">
+                <li>
+                    <a href="#" class="link__menu">
+                        <div class="item__menu">
+                            <img src="./img/icon_code.svg" alt="Editor de Codigo" class="icone__menu icone__ativo">
+                            <p>Editor de código</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link__menu">
+                        <div class="item__menu">
+                            <img src="./img/icon_users.svg" alt="Comunidade" class="icone__menu">
+                            <p>Comunidade</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="editor__container">
+            <div class="editor container">
+
+            </div>
+            <div class="config__container">
+
+            </div>
+            
+        </section>
+
+    </main>
     
 </body>
 </html>
